@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image Slider</title>
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="slider.css">
+  
+</head>
+<body>
+  <figure class="image-slider">
+    <img src="images/animal_slide_1.jpg" alt="animalPicture" class="image-slider__slide">
+    <img src="images/animal_slide_2.jpg" alt="animalPicture" class="image-slider__slide">
+    <img src="images/animal_slide_3.jpg" alt="animalPicture" class="image-slider__slide">
+    <img src="images/animal_slide_4.jpg" alt="animalPicture" class="image-slider__slide">
+    <img src="images/animal_slide_5.jpg" alt="animalPicture" class="image-slider__slide">
+    <section class="controller">
+      <div class="image-slider__buttons">
+        <button type="button" class="image-slider__button" data-num="1">01</button>
+        <button type="button" class="image-slider__button" data-num="2">02</button>
+        <button type="button" class="image-slider__button" data-num="3">03</button>
+        <button type="button" class="image-slider__button" data-num="4">04</button>
+        <button type="button" class="image-slider__button" data-num="5">05</button>
+      </div>
+      <span class="image-slider__loading-bar"></span>
+    </section>
+  </figure>
+<script src="slider.js"></script>
+<!-- <script src="slider-explorer.js"></script> -->
+</body>
+</html>
